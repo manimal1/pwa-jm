@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../images/JM-logo.png';
+import '../styles/App.css';
 
 const Home = () => {
   <div>
