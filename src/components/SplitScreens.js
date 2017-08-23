@@ -38,9 +38,7 @@ const SplitScreens = (props) => {
                   </a>
                 </div>
                 <div className="split-screens-item">
-                  <LazyLoad>
-                    <img className="split-screens-image" alt="work sample website" src={item.image} />
-                  </LazyLoad>
+                  <img className="split-screens-image" alt="work sample website" src={item.image} />
                 </div>
               </div>
             )
