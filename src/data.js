@@ -72,12 +72,12 @@ module.exports = {
       },
       { 
         title: 'This Website',
-        link: '/',
+        link: 'https://github.com/manimal1/pwa-jm',
         image: '/static/media/cv-webpage.958c2fda.png',
         tags: [
           'PWA (Progressive Web App)', 'React', 'Mock Up', 'Jest Tests'
         ],
-        description: 'This site itself followed best practices. I started with a mockup created with balsamiq.  Then I set up a React App and started with Jest/Enzyme tests that initially failed, which I made pass. Then I set up the HTML structure, styled with pure CSS, and used a JS scroller. The stateless functional components accept data stored in a state object, so it\'s very easy to make changes to style and content independently.'
+        description: 'This site itself followed best practices. I started with a mockup created with balsamiq.  Then I set up a React App and started with Jest/Enzyme tests that initially failed, which I made pass. Then I set up the HTML structure, styled with pure CSS, and used a JS scroller. The stateless functional components accept data stored in a state object, so it\'s very easy to make changes to style and content independently. Click on the link to check out the repo.'
       }
     ]
   },
