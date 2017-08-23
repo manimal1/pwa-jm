@@ -1,0 +1,131 @@
+/* Hero Headers */
+.hero {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  min-height: 350px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(90deg, rgba(49,61,65,0.6), rgba(49,61,65,0.6));
+}
+
+.hero-home {
+  background-color: rgb(35,35,35);
+  background-image: url("../../images/coding-bg.jpg");
+}
+
+.hero-container {
+  display: table;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.hero-content {
+  display: table-cell;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hero-logo-top,
+.hero-logo-bottom {
+  position: absolute;
+  display: inline-block;
+  top: 2.5%;
+  left: 50%;
+  max-width: 80%;
+  height: 60px;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.hero-logo-top img {
+  height: 90%;
+}
+
+.hero-logo-bottom {
+  top: auto;
+  bottom: 0.5%;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.hero-logo-bottom:hover,
+.hero-logo-bottom:hover span {
+  color: #FFC107 !important;
+  text-decoration: none;
+}
+
+.hero-nav {
+  position: absolute;
+  display: inline-block;
+  top: 2.5%;
+  right: -46%;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+}
+
+.hero-nav-text {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.hero-text {
+  color: #FFFFFF;
+  font-size: 4rem;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-logo-top {
+    height: 48px;
+  }
+
+  .hero-text {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-logo-top {
+    left: 20px;
+  }
+
+  .hero-logo-top img {
+    height: 60%;
+  }
+
+  .hero-nav {
+    left: 20px;
+    right: 20px;
+    margin-left: 30px;
+  }
+}

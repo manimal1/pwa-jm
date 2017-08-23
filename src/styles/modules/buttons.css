@@ -1,0 +1,83 @@
+.button-standard {
+  display: inline-block;
+  height: auto;
+  width: 12em;
+  margin: 2.4rem 0 0;
+  line-height: 4.0rem;
+  border-radius: 5em;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+}
+
+.button-standard span {
+  transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+}
+
+.button-standard:hover {
+  width: 13.5em;
+}
+
+.button-standard:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.button-light {
+  width: 19em;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFC107;
+}
+
+.button-light:hover {
+  background-color: #FFC107;
+  color: #000000;
+  width: 20.5em;
+}
+
+.button-light:visited,
+.button-light:focus {
+  color: #FFFFFF;
+}
+
+.button-light--dark-text {
+  width: 12em;
+  color: #2A3A3F;
+}
+
+.button-light--dark-text:hover {
+  width: 13.5em;
+  color: #FFC107;
+  background-color: #2A3A3F;
+  border-color: #2A3A3F;
+}
+
+.button-light--dark-text:focus {
+  color: #FFC107;
+}
+
+.button-light--dark-text:visited {
+  color: #2A3A3F;
+}
+
+.button-primary {
+  background-color: #FFC107;
+  color: #2A3A3F;
+  border: 2px solid #2A3A3F;
+}
+
+.button-primary:hover {
+  background-color: #2A3A3F;
+  color: #FFC107;
+}
+
+.button-primary:visited,
+.button-primary:focus {
+  color: #2A3A3F;
+}

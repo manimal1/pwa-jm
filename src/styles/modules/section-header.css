@@ -1,0 +1,22 @@
+.section-header {
+  text-align: center;
+}
+
+.section-header-title {
+  font-size: 3.2rem;
+  margin: 8rem 0 2rem;
+}
+
+.section-header-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  line-height: 3rem;
+}
+
+#work {
+  background-color: #EEEEEE;
+}
+
+#contact {
+  background-color: #FFC107;
+}

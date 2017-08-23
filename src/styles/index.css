@@ -1,5 +1,29 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #93a4aa;
+}
+
+.heading {
+  font-weight: 600;
+  color: #222222;
+}
+
+.subheading {
+  font-weight: 200;
+  color: #524e4d;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover,
+a:hover span {
+  color: #FFC107 !important;
+  text-decoration: none;
+  cursor: pointer;
 }
