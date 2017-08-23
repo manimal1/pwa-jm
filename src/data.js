@@ -73,7 +73,7 @@ module.exports = {
       { 
         title: 'This Website',
         link: 'https://github.com/manimal1/pwa-jm',
-        image: '/static/media/cv-webpage.958c2fda.png',
+        image: '/static/media/cv-webpage.9f83f161.png',
         tags: [
           'PWA (Progressive Web App)', 'React', 'Mock Up', 'Jest Tests'
         ],

@@ -82,7 +82,15 @@
   top: 2.5%;
   right: -46%;
   font-size: 1.8rem;
+}
+
+.hero-nav a {
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+.hero-nav a:hover {
+  text-decoration: none;
 }
 
 .hero-nav-text {

@@ -1,5 +1,7 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
+import LazyLoad from 'react-lazy-load';
+import '../styles/modules/grid.css';
 import '../styles/components/split-screens.css';
 import '../images/work-mys.png';
 import '../images/work-ss.png';
@@ -36,7 +38,9 @@ const SplitScreens = (props) => {
                   </a>
                 </div>
                 <div className="split-screens-item">
-                  <img className="split-screens-image" alt="work sample website" src={item.image} />
+                  <LazyLoad>
+                    <img className="split-screens-image" alt="work sample website" src={item.image} />
+                  </LazyLoad>
                 </div>
               </div>
             )

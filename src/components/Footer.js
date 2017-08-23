@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/JM-logo.png';
 import FontAwesome from 'react-fontawesome';
+import '../styles/modules/grid.css';
 import '../styles/components/footer.css';
 
 const Footer = (props) => {

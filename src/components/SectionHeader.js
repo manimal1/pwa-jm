@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/modules/grid.css';
 import '../styles/modules/section-header.css';
 
 const SectionHeader = (props) => {
