@@ -41,7 +41,7 @@ const SplitScreens = (props) => {
                   </a>
                 </div>
                 <div className="split-screens-item">
-                  <LazyLoad throttle={50}>
+                  <LazyLoad throttle={100} debounce={false}>
                     <img className="split-screens-image" alt="work sample website" src={image} />
                   </LazyLoad>
                 </div>
