@@ -3,10 +3,10 @@ import FontAwesome from 'react-fontawesome';
 import LazyLoad from 'react-lazy-load';
 import '../styles/modules/grid.css';
 import '../styles/components/split-screens.css';
-import '../images/work-mys.png';
-import '../images/work-ss.png';
-import '../images/work-ts.png';
-import '../images/cv-webpage.png';
+// import '../images/work-mys.png';
+// import '../images/work-ss.png';
+// import '../images/work-ts.png';
+// import '../images/cv-webpage.png';
 
 const SplitScreens = (props) => {
   return (
