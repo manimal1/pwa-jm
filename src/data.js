@@ -63,7 +63,7 @@ module.exports = {
       },
       { 
         title: 'MYS Yachting',
-        link: 'https:/mysyachting.com/',
+        link: 'https://mysyachting.com/',
         image: '/static/media/work-mys.10cb2a8d.png',
         tags: [
           'Ghost blog', 'Node', 'Sass', 'Site Hosting'
