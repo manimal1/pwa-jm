@@ -43,6 +43,7 @@
 .split-screens-tags li {
   display: inline;
   vertical-align: center;
+  color: #222222;
 }
 
 .split-screens-description {

@@ -29,7 +29,7 @@ export default class HeaderHero extends Component {
               {this.props.info.nav.map((nav, i) => {
                 const link = nav.link;
                 return (
-                  <a key={i} onClick={() => {this.props.scroll(link)}}>
+                  <a key={i} onClick={() => {this.props.scroll(link)}} rel="noopener">
                     <FontAwesome 
                       className='icon-sm'
                       name={nav.icon}
@@ -48,8 +48,8 @@ export default class HeaderHero extends Component {
                 </ReactRevealText>
               </h1>
             </div>
-            <button onClick={() => {this.props.scroll('contact-section')}} className="button-standard button-light">{this.props.info.buttonText}</button>
-            <a className="hero-logo-bottom" onClick={() => {this.props.scroll('pitch-section')}}>
+            <button onClick={() => {this.props.scroll('contact-section')}} className="button-standard button-light" rel="noopener">{this.props.info.buttonText}</button>
+            <a className="hero-logo-bottom" onClick={() => {this.props.scroll('pitch-section')}} rel="noopener">
               <div>scroll down</div>
               <FontAwesome 
                 className='icon-sm'
