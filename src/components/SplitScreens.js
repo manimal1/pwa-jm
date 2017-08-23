@@ -15,15 +15,7 @@ const SplitScreens = (props) => {
         <div className="container">
           {props.work.workItems.map((item, i) => {
             let image;
-            if (item.image == 'mys') {
-              image = mys;
-            } else if ( item.image = 'ss') {
-              image = ss;
-            } else if ( item.image = 'ts') {
-              image = ts;
-            } else {
-              image = cv;
-            }
+            item.image === 'ss' ? image = ss : item.image === 'ts' ? image = ts : item.image === 'mys' ? image = mys : image = cv;
 
             return (
               <div key={i} className="split-screens-wrapper row">
