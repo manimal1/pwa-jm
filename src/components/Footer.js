@@ -13,14 +13,14 @@ const Footer = (props) => {
             <img className="footer-logo" src={logo} alt="site-logo" />
             <p>Created by Jeremiah McCurdy</p>
             <div className="footer-links">
-              <a href="https://www.linkedin.com/in/jeremiah-mccurdy-25b4933/" target="blank">
+              <a href="https://www.linkedin.com/in/jeremiah-mccurdy-25b4933/" target="blank" id="linkedin-link" rel="external">
                 <FontAwesome 
                   className='icon-sm'
                   name='linkedin-square'
                   style={{ color: '#FFFFFF', fontSize: '3rem', margin: '10px' }}
                 />
               </a>
-              <a href="https://github.com/manimal1" target="blank">
+              <a href="https://github.com/manimal1" target="blank" id="github-link" rel="external">
                 <FontAwesome 
                   className='icon-sm'
                   name='github-square'

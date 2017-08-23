@@ -27,3 +27,8 @@ a:hover span {
   text-decoration: none;
   cursor: pointer;
 }
+
+.link-text {
+  color: #FFFFFF;
+  text-decoration: none;
+}
