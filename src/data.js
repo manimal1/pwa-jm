@@ -46,7 +46,7 @@ module.exports = {
       { 
         title: 'Suitsupply',
         link: 'http://eu.suitsupply.com/en/home',
-        image: '/static/media/work-ss.349d4f52.png',
+        image: '../images/work-ss.png',
         tags: [
           'SDLC', 'Scrum', 'Custom Frontend Solutions', 'Testing'
         ],
