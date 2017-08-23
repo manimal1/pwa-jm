@@ -21,6 +21,7 @@
 
 .button-standard:hover {
   width: 13.5em;
+  text-decoration: none;
 }
 
 .button-standard:focus {
