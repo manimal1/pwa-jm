@@ -59,10 +59,20 @@
 }
 
 @media (max-width: 768px) {
+  .split-screens-wrapper {
+    padding: 40px 0;
+  }
+  
   .split-screens-item {
     width: 100%;
     float: left;
     padding: 0 20px;
+    text-align: center;
+  }
+
+  .split-screens-item button {
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .split-screens-title {
