@@ -1,11 +1,7 @@
 {
   "main.css": "static/css/main.409f1531.css",
   "main.css.map": "static/css/main.409f1531.css.map",
-  "main.js": "static/js/main.cf2b7b49.js",
-  "main.js.map": "static/js/main.cf2b7b49.js.map",
-  "static/media/coding-bg.jpg": "static/media/coding-bg.a3dbcebf.jpg",
-  "static/media/cv-webpage.png": "static/media/cv-webpage.9f83f161.png",
-  "static/media/work-mys.png": "static/media/work-mys.10cb2a8d.png",
-  "static/media/work-ss.png": "static/media/work-ss.349d4f52.png",
-  "static/media/work-ts.png": "static/media/work-ts.0f9a2176.png"
+  "main.js": "static/js/main.506bf19d.js",
+  "main.js.map": "static/js/main.506bf19d.js.map",
+  "static/media/coding-bg.jpg": "static/media/coding-bg.a3dbcebf.jpg"
 }
