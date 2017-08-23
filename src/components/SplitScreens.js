@@ -33,7 +33,7 @@ const SplitScreens = (props) => {
                   <p className="split-screens-description">
                     {item.description}
                   </p>
-                  <a href={item.link} target="_blank">
+                  <a href={item.link} target="_blank" rel="noopener">
                     <button className="button-standard button-light button-light--dark-text" href={item.link}>Visit Website</button>
                   </a>
                 </div>
