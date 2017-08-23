@@ -84,7 +84,7 @@ module.exports = {
 
   contact: {
     headerTitle: 'Ready to Hire Me?',
-    headerText: 'I am currently searching for the right fit (full-time only).  Please contact me to find out more.',
+    headerText: 'I am currently searching for the right fit (full-time only). I currently live in the Netherlands, but am willing to relocate for the right career opportunity.  I am an American citizen.  My EU work must be sponsored by my employer. I qualify for the 30% ruling in the Netherlands. Please contact me to find out more.',
     buttonText: 'Email Me',
   }
 }
