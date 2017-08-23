@@ -3,10 +3,10 @@ import FontAwesome from 'react-fontawesome';
 import LazyLoad from 'react-lazy-load';
 import '../styles/modules/grid.css';
 import '../styles/components/split-screens.css';
-// import '../images/work-mys.png';
-// import '../images/work-ss.png';
-// import '../images/work-ts.png';
-// import '../images/cv-webpage.png';
+import mys from '../images/work-mys.png';
+import ss from '../images/work-ss.png';
+import ts from '../images/work-ts.png';
+import cv from '../images/cv-webpage.png';
 
 const SplitScreens = (props) => {
   return (
@@ -14,6 +14,17 @@ const SplitScreens = (props) => {
       <div className="split-screens">
         <div className="container">
           {props.work.workItems.map((item, i) => {
+            let image;
+            if (item.image == 'mys') {
+              image = mys;
+            } else if ( item.image = 'ss') {
+              image = ss;
+            } else if ( item.image = 'ts') {
+              image = ts;
+            } else {
+              image = cv;
+            }
+
             return (
               <div key={i} className="split-screens-wrapper row">
                 <div className="split-screens-item">
@@ -34,11 +45,11 @@ const SplitScreens = (props) => {
                     {item.description}
                   </p>
                   <a href={item.link} target="_blank" rel="noopener">
-                    <button className="button-standard button-light button-light--dark-text" href={item.link}>Visit Website</button>
+                    <button className="button-standard button-light button-light--dark-text">Visit Website</button>
                   </a>
                 </div>
                 <div className="split-screens-item">
-                  <img className="split-screens-image" alt="work sample website" src={item.image} />
+                  <img className="split-screens-image" alt="work sample website" src={image} />
                 </div>
               </div>
             )

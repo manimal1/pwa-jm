@@ -46,7 +46,8 @@ module.exports = {
       { 
         title: 'Suitsupply',
         link: 'http://eu.suitsupply.com/en/home',
-        image: '../images/work-ss.png',
+        image: 'ss',
+        staticImage: '/static/media/work-ss.349d4f52.png',
         tags: [
           'SDLC', 'Scrum', 'Custom Frontend Solutions', 'Testing'
         ],
@@ -55,7 +56,8 @@ module.exports = {
       { 
         title: 'Mr. GoodKnight',
         link: 'https://www.tvornica-snova.hr/',
-        image: '/static/media/work-ts.0f9a2176.png',
+        image: 'ts',
+        staticImage: '/static/media/work-ts.0f9a2176.png',
         tags: [
           'UI', 'UX', 'Custom Styling'
         ],
@@ -64,7 +66,8 @@ module.exports = {
       { 
         title: 'MYS Yachting',
         link: 'https://mysyachting.com/',
-        image: '/static/media/work-mys.10cb2a8d.png',
+        image: 'mys',
+        staticImage: '/static/media/work-mys.10cb2a8d.png',
         tags: [
           'Ghost blog', 'Node', 'Sass', 'Site Hosting'
         ],
@@ -73,7 +76,8 @@ module.exports = {
       { 
         title: 'This Website',
         link: 'https://github.com/manimal1/pwa-jm',
-        image: '/static/media/cv-webpage.9f83f161.png',
+        image: 'cv',
+        staticImage: '/static/media/cv-webpage.9f83f161.png',
         tags: [
           'PWA (Progressive Web App)', 'React', 'Mock Up', 'Jest Tests'
         ],
