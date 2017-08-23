@@ -59,7 +59,7 @@ module.exports = {
         tags: [
           'UI', 'UX', 'Custom Styling'
         ],
-        description: 'I built this site as part of a 3 person team while at Infinum d.o.o in Zagreb, Croatia. While I was the primary lead on the UI/UX implementation of this create-your-own children\'s book, I worked on all aspects of the frontend implementation.'
+        description: 'I built this site as part of a 3 person team while at Infinum d.o.o in Zagreb, Croatia. While I was the primary lead on the UI/UX implementation of this create-your-own children\'s book, I worked on all aspects of the frontend build.'
       },
       { 
         title: 'MYS Yachting',
@@ -77,7 +77,7 @@ module.exports = {
         tags: [
           'PWA (Progressive Web App)', 'React', 'Mock Up', 'Jest Tests'
         ],
-        description: 'This site itself followed best practices. I started with a mockup created with balsamiq.  Then I set up a React App and started with Jest Tests that initially failed, which I made pass. Then I set up the HTML structure, styled with pure CSS, and used a JS scroller. The stateless functional components accept data stored in a state object, so it\'s very easy to make content changes.'
+        description: 'This site itself followed best practices. I started with a mockup created with balsamiq.  Then I set up a React App and started with Jest/Enzyme tests that initially failed, which I made pass. Then I set up the HTML structure, styled with pure CSS, and used a JS scroller. The stateless functional components accept data stored in a state object, so it\'s very easy to make changes to style and content independently.'
       }
     ]
   },
