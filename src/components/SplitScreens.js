@@ -20,7 +20,7 @@ const SplitScreens = (props) => {
             return (
               <div key={i} className="split-screens-wrapper row">
                 <div className="split-screens-item">
-                  <h3 className="split-screens-title heading">{item.title}</h3>
+                  <h2 className="split-screens-title heading">{item.title}</h2>
                   <ul className="split-screens-tags">
                     {item.tags.map((tag, i) => {
                       return (

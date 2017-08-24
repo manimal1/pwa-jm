@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
-import '../styles/modules/hero.css';
 import '../styles/modules/buttons.css';
+import '../styles/components/hero.css';
 import logo from '../images/JM-logo.png';
 import ReactRevealText from 'react-reveal-text';
 

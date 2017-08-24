@@ -1,8 +1,8 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import '../styles/modules/grid.css';
-import '../styles/components/pitch.css';
 import '../styles/modules/icons.css';
+import '../styles/components/pitch.css';
 
 const ThreeColumnPitch = (props) => {
   return (
