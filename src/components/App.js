@@ -9,8 +9,6 @@ import Footer from './Footer';
 import data from '../data';
 
 const Element    = Scroll.Element;
-// const Events     = Scroll.Events;
-// const scrollSpy  = Scroll.scrollSpy;
 const scroller   = Scroll.scroller;
 
 class App extends Component {
@@ -20,23 +18,6 @@ class App extends Component {
     this.state = {
       data: data
     }
-  }
-
-  componentDidMount() {
-    // Events.scrollEvent.register('begin', function(to, element) {
-    //   console.log("begin", arguments);
-    // });
- 
-    // Events.scrollEvent.register('end', function(to, element) {
-    //   console.log("end", arguments);
-    // });
- 
-    // scrollSpy.update();
-  }
-
-  componentWillUnmount() {
-    // Events.scrollEvent.remove('begin');
-    // Events.scrollEvent.remove('end');
   }
 
   scrollToEl(element) {
