@@ -2,7 +2,7 @@ module.exports = {
   hero: {
     nav: [ 
       {
-        text: 'My Work',
+        text: 'Projects',
         link: 'work-section',
         icon: 'code-fork'
       },
