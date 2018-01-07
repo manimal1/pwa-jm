@@ -26,7 +26,7 @@
 
 .hero-home {
   background-color: rgb(35,35,35);
-  background-image: url("../../images/coding-bg.jpg");
+  background-image: url("../../images/els-bg.png");
 }
 
 .hero-container {
@@ -80,7 +80,7 @@
   position: absolute;
   display: inline-block;
   top: 2.5%;
-  right: -46%;
+  right: 0;
   font-size: 1.8rem;
 }
 

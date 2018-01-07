@@ -2,3 +2,24 @@
   text-align: center;
   padding-bottom: 80px;
 }
+
+#contact .section-header-subtitle.subheading {
+  white-space: pre-wrap;
+}
+
+#contact a {
+  color: orangered;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: orangered !important;
+}
+
+#contact .contact .button-standard {
+  color: inherit !important;
+}
+
+#contact .contact .button-standard:hover {
+  color: #FFC107 !important;
+}

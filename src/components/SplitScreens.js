@@ -3,9 +3,9 @@ import FontAwesome from 'react-fontawesome';
 import LazyLoad from 'react-lazy-load';
 import '../styles/modules/grid.css';
 import '../styles/components/split-screens.css';
-import mys from '../images/work-mys.png';
-import ss from '../images/work-ss.png';
-import ts from '../images/work-ts.png';
+import co2cut from '../images/co2cut-desktop.png';
+import banko from '../images/work-banko.jpg';
+import gea from '../images/work-gea.jpg';
 import cv from '../images/cv-webpage.png';
 
 const SplitScreens = (props) => {
@@ -15,7 +15,7 @@ const SplitScreens = (props) => {
         <div className="container">
           {props.work.workItems.map((item, i) => {
             let image;
-            item.image === 'ss' ? image = ss : item.image === 'ts' ? image = ts : item.image === 'mys' ? image = mys : image = cv;
+            item.image === 'banko' ? image = banko : item.image === 'gea' ? image = gea : item.image === 'co2cut' ? image = co2cut : image = cv;
 
             return (
               <div key={i} className="split-screens-wrapper row">

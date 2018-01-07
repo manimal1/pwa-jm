@@ -10,20 +10,19 @@ const Footer = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <img className="footer-logo" src={logo} alt="site-logo" />
-            <p>Created by Jeremiah McCurdy</p>
+            <p>Created by ELS d.o.o.</p>
             <div className="footer-links">
-              <a href="https://www.linkedin.com/in/jeremiah-mccurdy-25b4933/" target="blank" id="linkedin-link" name="linkedin-link" rel="external">
+              <a href="https://www.linkedin.com/in/markgero" target="blank" id="linkedin-link" name="linkedin-link" rel="external">
                 <FontAwesome 
                   className='icon-sm'
                   name='linkedin-square'
                   style={{ color: '#FFFFFF', fontSize: '3rem', margin: '10px' }}
                 />
               </a>
-              <a href="https://github.com/manimal1" target="blank" id="github-link" name="github-link" rel="external">
+              <a href="https://twitter.com/mark_gero" target="blank" id="twitter-link" name="twitter-link" rel="external">
                 <FontAwesome 
                   className='icon-sm'
-                  name='github-square'
+                  name='twitter-square'
                   style={{ color: '#FFFFFF', fontSize: '3rem', margin: '10px' }}
                 />
               </a>

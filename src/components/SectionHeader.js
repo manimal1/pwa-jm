@@ -3,6 +3,9 @@ import '../styles/modules/grid.css';
 import '../styles/components/section-header.css';
 
 const SectionHeader = (props) => {
+
+  var headerText = props.section.headerText;
+
   return (
     <header className="container">
       <div className="section-header row">
@@ -10,8 +13,7 @@ const SectionHeader = (props) => {
           <h1 className="section-header-title heading">
             {props.section.headerTitle}
           </h1>
-          <h4 className="section-header-subtitle subheading">
-            {props.section.headerText}
+          <h4 className="section-header-subtitle subheading" dangerouslySetInnerHTML={{__html: headerText}}>
           </h4>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import '../styles/modules/buttons.css';
 import '../styles/components/hero.css';
-import logo from '../images/JM-logo.png';
+import logo from '../images/els-top-logo.png';
 import ReactRevealText from 'react-reveal-text';
 
 export default class HeaderHero extends Component {
