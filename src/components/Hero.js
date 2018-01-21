@@ -22,9 +22,9 @@ export default class HeaderHero extends Component {
       <header className="hero hero-home">
         <div className="hero-container">
           <div className="hero-content">
-            <div className="hero-logo-top">
+            {/* <div className="hero-logo-top">
               <img src={logo} alt="jm-logo" />
-            </div>
+            </div> */}
             <div className="hero-nav">
               {this.props.info.nav.map((nav, i) => {
                 const link = nav.link;

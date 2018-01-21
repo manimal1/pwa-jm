@@ -1,5 +1,5 @@
 {
-  "name": "pwa-jm",
+  "name": "eco-logicsystems",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,5 +26,5 @@
     "enzyme": "^2.9.1",
     "react-test-renderer": "^15.6.1"
   },
-  "homepage": "https://manimal1.github.io/pwa-jm/"
+  "homepage": "https://www.eco-logicsystems.com"
 }
