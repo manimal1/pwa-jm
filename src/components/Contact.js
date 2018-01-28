@@ -5,7 +5,7 @@ import '../styles/components/contact.css';
 const Contact = (props) => {
   return (
     <section className="contact">
-      <a href="mailto:jeremiah.mccurdy@gmail.com" className="button-standard button-primary">
+      <a href="mailto:markgero@eco-logicsystems.com" className="button-standard button-primary">
         <FontAwesome 
           className='icon-sm'
           name='envelope-o'
